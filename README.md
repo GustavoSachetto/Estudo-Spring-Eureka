@@ -11,6 +11,8 @@ Repositório de estudo do Spring Eureka, produto desenvolvido pelo netflix para 
 <img width="770" height="525" alt="image" src="https://github.com/user-attachments/assets/90e6b61a-5846-4455-8667-f53860f01843" />
 
 **Lib para reduzir custo de manutenção:**
+
+SDK:
 ```
 @FeignClient(name = "PRODUTO")
 public interface ProdutoClient {
@@ -20,6 +22,7 @@ public interface ProdutoClient {
 }
 ```
 
+Microsserviço Usuário:
 ```
 import com.sachetto.sdk.client.ProdutoClient;
 import com.sachetto.sdk.client.VendaClient;
